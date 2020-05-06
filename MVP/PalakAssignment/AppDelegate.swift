@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  MVP
+//  PalakAssignment
 //
-//  Created by Palak jain on 31/03/20.
+//  Created by Palak jain on 01/04/20.
 //  Copyright © 2020 Palak jain. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  MVP
+//  PalakAssignment
 //
-//  Created by Palak jain on 31/03/20.
+//  Created by Palak jain on 01/04/20.
 //  Copyright © 2020 Palak jain. All rights reserved.
 //
 
@@ -18,6 +18,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        window?.backgroundColor = UIColor.white 
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
